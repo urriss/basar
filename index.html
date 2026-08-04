@@ -17,7 +17,7 @@
   <nav class="nav">
     <div class="nav-left">
       <span class="logo">ÚTIVIST</span>
-      <div class="nav-links">
+      <div class="nav-links" id="navLinks">
         <a href="#trails">Gönguleiðir</a>
         <a href="#stay">Gisting</a>
         <a href="#getting-here">Að komast hingað</a>
@@ -25,6 +25,9 @@
       </div>
     </div>
     <div class="nav-right">
+      <button class="hamburger" id="menuToggle" type="button" aria-label="Opna valmynd" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
       <button class="lang-toggle" id="langToggle" type="button" aria-label="Skipta um tungumál (kemur síðar)">
         <span data-lang="en">
           <svg class="flag" viewBox="0 0 60 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -34,7 +37,7 @@
             <path d="M30,0 V36 M0,18 H60" stroke="#fff" stroke-width="10"/>
             <path d="M30,0 V36 M0,18 H60" stroke="#cf142b" stroke-width="4"/>
           </svg>
-          EN
+          <span class="lang-code">EN</span>
         </span>
         <span data-lang="is" class="active">
           <svg class="flag" viewBox="0 0 60 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -44,10 +47,10 @@
             <rect x="20" width="4" height="36" fill="#dc1e35"/>
             <rect y="16" width="60" height="4" fill="#dc1e35"/>
           </svg>
-          IS
+          <span class="lang-code">IS</span>
         </span>
       </button>
-      <a class="btn" href="https://app.thebookingfactory.com/utivist/book/basar-stori-skali?_gl=1*1y6r9i1*_ga*OTI5NzUwMjYxLjE3NzE1MTAxMzE.*_ga_2X32MF0YE8*czE3ODA1MDM1MjgkbzIyJGcxJHQxNzgwNTAzNTI5JGo1OSRsMCRoMA..#/choose-dates" target="_blank" rel="noopener">Bóka gistingu</a>
+      <a class="btn" href="https://app.thebookingfactory.com/utivist/book/basar-stori-skali?_gl=1*1y6r9i1*_ga*OTI5NzUwMjYxLjE3NzE1MTAxMzE.*_ga_2X32MF0YE8*czE3ODA1MDM1MjgkbzIyJGcxJHQxNzgwNTAzNTI5JGo1OSRsMCRoMA..#/choose-dates" target="_blank" rel="noopener"><span class="btn-full">Bóka gistingu</span><span class="btn-short">Bóka</span></a>
     </div>
   </nav>
 
