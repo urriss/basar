@@ -257,6 +257,9 @@ img { max-width: 100%; display: block; }
 
 .fact-value { font-size: 14px; font-weight: 600; }
 
+.fact-link { color: inherit; text-decoration: none; }
+.fact-link:hover { color: inherit; text-decoration: underline; }
+
 /* ---------- Intro ---------- */
 
 .intro {
