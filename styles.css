@@ -118,6 +118,13 @@ img { max-width: 100%; display: block; }
   cursor: pointer;
 }
 
+.flag {
+  width: 18px;
+  height: 11px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
 .lang-toggle span {
   padding: 6px 12px;
   display: flex;
