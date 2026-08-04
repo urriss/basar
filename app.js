@@ -31,3 +31,12 @@ navLinks.querySelectorAll('a').forEach((link) => {
     menuToggle.setAttribute('aria-expanded', 'false');
   });
 });
+
+const trailsExpandBtn = document.getElementById('trailsExpandBtn');
+const trailGroups = document.getElementById('trailGroups');
+
+trailsExpandBtn.addEventListener('click', () => {
+  const isOpen = trailGroups.classList.toggle('open');
+  trailsExpandBtn.setAttribute('aria-expanded', String(isOpen));
+  trailsExpandBtn.querySelector('span').textContent = isOpen ? 'Fela gönguleiðir' : 'Sjá allar gönguleiðir';
+});

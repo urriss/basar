@@ -451,6 +451,41 @@ img { max-width: 100%; display: block; }
 
 .trail-map-banner img { border-radius: 8px; }
 
+.trails-expand {
+  display: none;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.2);
+  color: #fff;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 14px 20px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 28px;
+  cursor: pointer;
+}
+
+.trails-expand .chevron { transition: transform .2s; }
+
+.trails-expand[aria-expanded="true"] .chevron { transform: rotate(180deg); }
+
+@media (max-width: 860px) {
+  .trails-expand { display: flex; }
+
+  .trail-groups {
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .trail-groups.open {
+    max-height: none;
+  }
+}
+
 .trail-group-heading {
   display: flex;
   align-items: baseline;
