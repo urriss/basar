@@ -53,13 +53,17 @@ function handleScroll() {
 
   if (window.innerWidth > MOBILE_BREAKPOINT || currentY < TOP_OFFSET || navLinks.classList.contains('open')) {
     nav.classList.remove('nav-hidden');
+    lastScrollY = currentY;
   } else if (currentY > lastScrollY + SCROLL_THRESHOLD) {
     nav.classList.add('nav-hidden');
+    lastScrollY = currentY;
   } else if (currentY < lastScrollY - SCROLL_THRESHOLD) {
     nav.classList.remove('nav-hidden');
+    lastScrollY = currentY;
   }
+  // else: movement below threshold - keep lastScrollY as the anchor so
+  // slow, gradual scrolling still accumulates toward the threshold
 
-  lastScrollY = currentY;
   scrollTicking = false;
 }
 
