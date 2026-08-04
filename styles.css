@@ -140,6 +140,7 @@ img { max-width: 100%; display: block; }
 }
 
 .btn {
+  display: inline-block;
   background: var(--terracotta);
   color: #fff;
   border: none;
@@ -150,7 +151,10 @@ img { max-width: 100%; display: block; }
   cursor: pointer;
   font-family: inherit;
   white-space: nowrap;
+  text-align: center;
 }
+
+.btn:hover { color: #fff; }
 
 .btn:hover { background: #a63f27; }
 
