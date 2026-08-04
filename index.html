@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Básar — Skáli og tjaldsvæði í Þórsmörk | Útivist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Public+Sans:wght@400;500;600;700&family=Archivo:wght@700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="page">
+
+  <nav class="nav">
+    <div class="nav-left">
+      <span class="logo">ÚTIVIST</span>
+      <div class="nav-links">
+        <a href="#trails">Gönguleiðir</a>
+        <a href="#stay">Gisting</a>
+        <a href="#getting-here">Að komast hingað</a>
+        <a href="#know">Gott að vita</a>
+      </div>
+    </div>
+    <div class="nav-right">
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Skipta um tungumál (kemur síðar)">
+        <span data-lang="en">🇬🇧 EN</span>
+        <span data-lang="is" class="active">🇮🇸 IS</span>
+      </button>
+      <button class="btn">Bóka gistingu</button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <img src="images/hero-pano.jpg" alt="Þórsmörk">
+    <div class="hero-content">
+      <div class="eyebrow">Þórsmörk · Goðaland · Ísland</div>
+      <h1>Básar</h1>
+      <p>Skáli og tjaldsvæði í birkiskóginum, umkringt þremur jöklum. Rólegt hjarta einnar fegurstu gönguparadísar Íslands.</p>
+    </div>
+  </header>
+
+  <div class="facts">
+    <div class="fact"><div class="fact-label">GPS</div><div class="fact-value">N63°40.559 W19°29.014</div></div>
+    <div class="fact"><div class="fact-label">Skálavörður</div><div class="fact-value">+354 563 0114</div></div>
+    <div class="fact"><div class="fact-label">Tímabil</div><div class="fact-value">Miðjan júní – miðjan sept.</div></div>
+    <div class="fact"><div class="fact-label">Svefnpláss</div><div class="fact-value">75 í skála + tjöld</div></div>
+  </div>
+
+  <section class="intro">
+    <div>
+      <div class="eyebrow" style="color:var(--terracotta);">Velkomin í Bása</div>
+      <h2>Staður sem tekur lítið frá landinu en gefur mikið til baka.</h2>
+      <p>Básar standa í sjálfsánum birkilundi á jaðri Krossáraura — einum grænasta reit íslenska hálendisins. Hér er engin verslun, enginn vegur fyrir venjulega bíla og enginn asi.</p>
+      <p>Tjaldaðu á grasinu, eldaðu á sameiginlega grillinu, drekktu beint úr læknum og skildu mosann eftir eins og þú fannst hann. Það sem þú berð inn, berð þú aftur út.</p>
+    </div>
+    <div class="intro-photo"><img src="images/camp-aerial.jpg" alt="Tjaldsvæðið í birkiskóginum"></div>
+  </section>
+
+  <section id="trails" class="trails-section">
+    <div class="trails-header">
+      <img src="images/signpost.jpg" alt="Vörðuskilti nálægt Básum sem vísar á Réttarfell, Hvannárgil og Útigönguhöfði">
+      <div class="trails-header-content">
+        <div class="eyebrow">Gönguleiðir frá skála</div>
+        <h2>Hversu langt viltu ganga?</h2>
+      </div>
+    </div>
+
+    <div class="trails-body">
+      <p class="trails-intro">Allar leiðir hér byrja við skáladyrnar. Veldu eftir tímanum sem þú hefur — frá klukkutíma um birkið upp í heilan dag yfir jökulskarð. <span class="highlight">Leiðaleit eftir tíma og erfiðleika er væntanleg.</span></p>
+
+      <div class="trail-map-banner"><img src="images/trail-map-banner.png" alt="Gönguleiðaskilti fyrir Básasvæðið"></div>
+
+      <div class="trail-group-heading"><h3>Stuttar göngur</h3><span>innan við 2 klst</span></div>
+      <div class="trail-cards">
+        <div class="trail-card">
+          <div class="trail-card-top"><span class="trail-name">Básahringurinn</span><span class="badge easy">Létt</span></div>
+          <div class="trail-meta">1 klst · 3 km</div>
+          <div class="trail-desc">Rólegur hringur um birkiskóginn kringum skálana — fullkomið til að hreyfa fæturna fyrst.</div>
+        </div>
+        <div class="trail-card">
+          <div class="trail-card-top"><span class="trail-name">Strákagil</span><span class="badge easy">Létt</span></div>
+          <div class="trail-meta">1,5 klst · 4 km</div>
+          <div class="trail-desc">Stutt ganga inn í skjólgott gil með litlum fossi í enda.</div>
+        </div>
+      </div>
+
+      <div class="trail-group-heading"><h3>Hálfsdagsleiðir</h3><span>2–4 klst</span></div>
+      <div class="trail-cards">
+        <div class="trail-card">
+          <div class="trail-card-top"><span class="trail-name">Réttarfell</span><span class="badge moderate">Miðlungs</span></div>
+          <div class="trail-meta">2 klst · 5 km</div>
+          <div class="trail-desc">Jöfn hækkun upp á hrygg með víðu útsýni yfir Krossáraura.</div>
+        </div>
+        <div class="trail-card">
+          <div class="trail-card-top"><span class="trail-name">Merkjárgil</span><span class="badge moderate">Miðlungs</span></div>
+          <div class="trail-meta">2,5 klst · 6 km</div>
+          <div class="trail-desc">Skógi vaxinn dalahringur með lækjum og gömlum hraunmyndunum.</div>
+        </div>
+        <div class="trail-card">
+          <div class="trail-card-top"><span class="trail-name">Hvannárgil</span><span class="badge moderate">Miðlungs</span></div>
+          <div class="trail-meta">3 klst · 7 km</div>
+          <div class="trail-desc">Hlykkjótt leið milli tignarlegra gljúfraveggja og kvíslóttra árfarvega.</div>
+        </div>
+        <div class="trail-card">
+          <div class="trail-card-top"><span class="trail-name">Útigönguhöfði</span><span class="badge hard">Erfitt</span></div>
+          <div class="trail-meta">4 klst · 9 km</div>
+          <div class="trail-desc">Bratt og bert klifur upp á hrygg, launað með víðáttumiklu jöklaútsýni.</div>
+        </div>
+      </div>
+
+      <div class="trail-group-heading"><h3>Stóru dagarnir</h3><span>heill dagur, krefjandi</span></div>
+      <div class="trail-cards">
+        <div class="trail-card">
+          <div class="trail-card-top"><span class="trail-name">Tindfjöll</span><span class="badge hard">Erfitt</span></div>
+          <div class="trail-meta">6 klst · 14 km</div>
+          <div class="trail-desc">Heilsdags háleið yfir tindana — krefst rötunar og úthalds.</div>
+        </div>
+        <div class="trail-card">
+          <div class="trail-card-top"><span class="trail-name">Fimmvörðuháls að Skógum</span><span class="badge hard">Erfitt</span></div>
+          <div class="trail-meta">9 klst · 25 km</div>
+          <div class="trail-desc">Klassíska skarðið milli tveggja jökla sem endar við Skógafoss. Langur og krefjandi dagur.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stay" class="stay">
+    <h2>Gisting í Básum</h2>
+    <p class="stay-sub">Tvær leiðir til að sofa — undir tjaldhimni á enginu eða í koju í gamla timburskálanum.</p>
+
+    <div class="stay-cards">
+      <div class="stay-card">
+        <div class="stay-card-photo"><img src="images/tent-field.jpg" alt="Tjald á enginu"></div>
+        <div class="stay-card-body">
+          <h3>Tjaldað á enginu</h3>
+          <p>Tjaldsvæði opið júní til september. Ekki þarf að panta fyrirfram — farið er í afgreiðslu og greitt við komu í Bása. Salerni og sturtur eru í þjónustuhúsinu yfir sumartímann.</p>
+        </div>
+      </div>
+      <div class="stay-card">
+        <div class="stay-card-photo"><img src="images/hut-interior.jpg" alt="Inni í skálanum"></div>
+        <div class="stay-card-body">
+          <h3>Gisting í skálanum</h3>
+          <p>75 gistipláss í skálum, með dýnum, stóru sameiginlegu borði og setustofu. Taktu með þinn eigin svefnpoka. Innskráning eftir kl. 14, skálinn rýmdur fyrir kl. 11.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="stay-amenities">
+      <div class="amenity">
+        <h3>Salerni og sturtur</h3>
+        <p>Salerni fyrir skálagesti allt árið, auk salerna og sturtu í þjónustuhúsinu fyrir alla gesti á sumrin. Sturtur eru gjaldfrjálsar fyrir skálagesti; tjaldgestir greiða 1.000 kr (550 kr félagsmenn).</p>
+      </div>
+      <div class="amenity">
+        <h3>Eldhús og grill</h3>
+        <p>Sameiginlegt eldhús með helluborði, eldunaráhöldum og borðbúnaði, auk kolagrills. Taktu með allan þinn eigin mat — næsta verslun er á Hvolsvelli.</p>
+      </div>
+      <div class="price-card">
+        <h3>Verð 2026 · kr á nótt</h3>
+        <div class="price-row"><span>Koja · félagi</span><strong>7 400</strong></div>
+        <div class="price-row"><span>Koja · almennt verð</span><strong>16 800</strong></div>
+        <div class="price-row"><span>Tjald · félagi / almennt</span><strong>1 300 / 2 500</strong></div>
+        <div class="price-row"><span>Gistináttaskattur á tjald</span><strong>400</strong></div>
+        <div class="price-row"><span>Sturta · félagi / almennt</span><strong>550 / 1 000</strong></div>
+        <div class="price-note">Gistináttaskattur 800 kr. er innifalinn í skálagistingu. 0–6 ára frítt í skála, 7–17 ára 50% afsláttur, 0–12 ára frítt í tjald.</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="photo-break">
+    <img src="images/camp-meadow.jpg" alt="Morgunkaffi á enginu">
+    <blockquote>Vaknaðu við fuglasöng og jöklasvala, hitaðu ketilinn í grasinu og leyfðu deginum að byrja hægt.</blockquote>
+  </div>
+
+  <section id="getting-here" class="getting-here">
+    <div>
+      <div class="eyebrow" style="color:var(--terracotta);">Að komast hingað</div>
+      <h2>Skildu bílinn eftir</h2>
+      <p class="body">Beygt er út af þjóðvegi 1 rétt austan Markarfljóts inn á veg 249, sem breytist við Stóru-Mörk í F249 Þórsmerkurveg. Vegslóðinn liggur inn fyrir Álfakirkju og að Básum, yfir nokkrar jökulár sem eru aðeins færar jeppum og stærri bílum. Nær allir koma með fjallarútu. Kannaðu færð hjá Vegagerðinni í síma 1777 áður en þú leggur af stað.</p>
+      <div class="info-cards">
+        <div class="info-card"><strong>Fjallarúta</strong><div>Reykjavík Excursions og Trex aka daglega 4×4 rútum frá Reykjavík og Hvolsvelli yfir sumarið — um 3,5–4 klukkustundir frá borginni, árnar meðtaldar.</div></div>
+        <div class="info-card"><strong>Á fjórhjóladrifnum bíl</strong><div>Aðeins fyrir reynda hálendisökumenn. Kannaðu alltaf ástand ánna hjá skálaverði áður en þú leggur af stað.</div></div>
+      </div>
+    </div>
+    <div class="getting-here-photo"><img src="images/tent-view.jpg" alt="Útsýni til fjalla"></div>
+  </section>
+
+  <section class="site-map">
+    <h2>Rata um svæðið</h2>
+    <div class="site-map-card"><img src="images/site-map.png" alt="Kort af Básum með tjaldsvæðum, salernum, bílastæði og aðstöðu"></div>
+    <p class="site-map-caption">Enginn varðeldur, engin hávær tónlist og engir drónar á svæðinu — hjálpumst að við að halda kyrrðinni fyrir alla.</p>
+  </section>
+
+  <div class="evening">
+    <img src="images/campfire-glacier.jpg" alt="Varðeldur að kvöldi undir jöklinum">
+    <div class="evening-content">
+      <div class="eyebrow">Kvöldin í Básum</div>
+      <h2>Eldurinn er þar sem dalurinn safnast saman.</h2>
+      <p>Þegar sólin sest bak við Eyjafjallajökul verða ókunnugir að hring. Taktu með lag, sögu eða bara þreytta fætur.</p>
+    </div>
+  </div>
+
+  <section id="know" class="faq">
+    <h2>Gott að vita</h2>
+    <div class="faq-grid">
+      <div class="faq-item"><strong>Er rafmagn?</strong><p>Aðeins takmarkað rafmagn frá ljósavél — nóg fyrir ljós en ekki til að hlaða öll tæki. Taktu með hleðslubanka.</p></div>
+      <div class="faq-item"><strong>Má drekka vatnið?</strong><p>Já — lækjarvatnið er tært, kalt og óhætt að drekka beint. Engar flöskur nauðsynlegar.</p></div>
+      <div class="faq-item"><strong>Þarf að bóka tjaldstæði?</strong><p>Nei — tjaldsvæðið er fyrstur kemur, fyrstur fær. Aðeins kojur þarf að bóka.</p></div>
+      <div class="faq-item"><strong>Eru hundar leyfðir?</strong><p>Já, í bandi og utan skálanna. Haltu þeim fjarri varpfuglum og sauðfé.</p></div>
+      <div class="faq-item"><strong>Hvað verður um ruslið?</strong><p>Það eru engar ruslatunnur á hálendinu. Allt sem þú berð inn berð þú aftur út með þér.</p></div>
+      <div class="faq-item"><strong>Er símasamband?</strong><p>Stopult í besta falli. Láttu einhvern vita um áætlanir þínar áður en þú kemur og njóttu þess að vera ónáanleg.</p></div>
+    </div>
+
+    <div class="weather-links">
+      <a class="weather-link" href="https://www.vedur.is" target="_blank" rel="noopener"><span><strong>Veðurspá</strong><div>vedur.is · Veðurstofa Íslands</div></span><span class="arrow">→</span></a>
+      <a class="weather-link" href="https://safetravel.is" target="_blank" rel="noopener"><span><strong>Áður en þú leggur af stað</strong><div>safetravel.is · aðstæður og viðvaranir</div></span><span class="arrow">→</span></a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div>
+        <h2>Komdu og dveldu um stund.</h2>
+        <p>Kojur fyllast fljótt í júlí og ágúst — bókaðu tímanlega.</p>
+      </div>
+      <button class="btn">Bóka gistingu</button>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-logo">ÚTIVIST</span>
+      <span>Katrínartún 4, Reykjavík · +354 562 1000 · utivist.is</span>
+    </div>
+  </footer>
+
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
