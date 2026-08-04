@@ -40,3 +40,32 @@ trailsExpandBtn.addEventListener('click', () => {
   trailsExpandBtn.setAttribute('aria-expanded', String(isOpen));
   trailsExpandBtn.querySelector('span').textContent = isOpen ? 'Fela gönguleiðir' : 'Sjá allar gönguleiðir';
 });
+
+const nav = document.querySelector('.nav');
+const MOBILE_BREAKPOINT = 860;
+const SCROLL_THRESHOLD = 10;
+const TOP_OFFSET = 80;
+let lastScrollY = window.scrollY;
+let scrollTicking = false;
+
+function handleScroll() {
+  const currentY = window.scrollY;
+
+  if (window.innerWidth > MOBILE_BREAKPOINT || currentY < TOP_OFFSET || navLinks.classList.contains('open')) {
+    nav.classList.remove('nav-hidden');
+  } else if (currentY > lastScrollY + SCROLL_THRESHOLD) {
+    nav.classList.add('nav-hidden');
+  } else if (currentY < lastScrollY - SCROLL_THRESHOLD) {
+    nav.classList.remove('nav-hidden');
+  }
+
+  lastScrollY = currentY;
+  scrollTicking = false;
+}
+
+window.addEventListener('scroll', () => {
+  if (!scrollTicking) {
+    window.requestAnimationFrame(handleScroll);
+    scrollTicking = true;
+  }
+}, { passive: true });
