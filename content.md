@@ -30,7 +30,7 @@ Skáli og tjaldsvæði í birkiskóginum, umkringt þremur jöklum. Rólegt hjar
 
 ### Staður sem tekur lítið frá landinu en gefur mikið til baka.
 
-Básar standa í sjálfsánum birkilundi á jaðri Krossáraura - einum grænasta reit íslenska hálendisins. Hér er lítil verslun og notaleg veitingastaða, en enginn vegur fyrir venjulega bíla og enginn asi.
+Básar standa í sjálfsánum birkilundi á jaðri Krossáraura - eins af grænustu reitum íslenska hálendisins. Hér er lítil verslun og notalegur veitingastaður, en enginn vegur fyrir venjulega bíla og enginn asi.
 
 Tjaldaðu á grasinu, eldaðu á sameiginlega grillinu, fylltu á brúsann úr krananum og skildu mosann eftir eins og þú fannst hann. Það sem þú berð inn, berð þú aftur út.
 
@@ -43,10 +43,10 @@ Allar leiðir hér byrja við skáladyrnar. Veldu eftir tímanum sem þú hefur 
 ### Stuttar göngur — innan við 2 klst
 
 **Básahringurinn** · Létt · 1 klst · 3 km
-Rólegur hringur um birkiskóginn kringum skálana - fullkomið til að hreyfa fæturna fyrst.
+Rólegur hringur um birkiskóginn kringum skálana - fullkomið til að liðka fæturna fyrst.
 
 **Strákagil** · Létt · 1,5 klst · 4 km
-Stutt ganga inn í skjólgott gil með litlum fossi í enda.
+Stutt ganga inn í skjólgott gil með litlum fossi fremst.
 
 ### Hálfsdagsleiðir — 2–4 klst
 
@@ -80,7 +80,7 @@ Tjaldsvæði opið júní til september. Ekki þarf að panta fyrirfram - farið
 
 ### Gisting í skálanum
 
-75 gistipláss í skálum, með dýnum, stóru sameiginlegu borði og setustofu. Taktu með þinn eigin svefnpoka. Innskráning eftir kl. 15, skálinn rýmdur fyrir kl. 12.
+75 gistipláss í skálum, með dýnum, stóru sameiginlegu borði og setustofu. Taktu með þér þinn eigin svefnpoka. Innskráning eftir kl. 15, skálinn rýmdur fyrir kl. 12.
 
 ### Salerni og sturtur
 
@@ -120,18 +120,18 @@ Aðeins fyrir reynda hálendisökumenn. Kannaðu alltaf ástand ánna hjá skál
 
 ## Rata um svæðið
 
-Enginn varðeldur, engin hávær tónlist og engir drónar á svæðinu - hjálpumst að við að halda kyrrðinni fyrir alla.
+Enginn varðeldur, engin hávær tónlist og engir drónar á svæðinu - höldum saman kyrrðinni fyrir alla.
 
 ## Kvöldin í Básum
 
 ### Eldurinn er þar sem dalurinn safnast saman.
 
-Þegar sólin sest bak við Eyjafjallajökul verða ókunnugir að hring. Taktu með lag, sögu eða bara þreytta fætur.
+Þegar sólin sest bak við Eyjafjallajökul myndast hringur af ókunnugum. Taktu með þér lag, sögu eða bara þreytta fætur.
 
 ## Gott að vita
 
-**Er rafmagn?**
-Það er rafmagn, en takmarkað - nóg fyrir síma og minni tæki, en ekki til að hlaða rafbíla eða annað orkufrekt. Taktu samt með hleðslubanka til öryggis.
+**Er rafmagn í boði?**
+Það er rafmagn, en takmarkað - nóg fyrir síma og minni tæki, en ekki til að hlaða rafbíla eða annað orkufrekt. Taktu samt með þér hleðslubanka til öryggis.
 
 **Má drekka vatnið?**
 Kranavatnið er ofurhreint og fullkomlega óhætt að drekka beint, svo þú getur fyllt á brúsann þinn hvar sem er. Við mælum þó ekki með að drekka beint úr læknum hér rétt hjá skálanum.
